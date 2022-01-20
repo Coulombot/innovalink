@@ -4,13 +4,23 @@
 
 :root {
     // Couleur de base
-    --color-white: #fff;
-    --color-black: #000;
+    --color-light: #f3f3f3;
+    --color-dark: #1b1c1e;
 
     // Couleurs du projet
-    --color-primary: #6aa84f;
-    --color-primary-dark: #304d24;
+    --color-primary: #00a2d8;
+    --color-secondary: #004359;
 
-    --color-bg-primary: #212121;
-    --color-bg-secondary: #3e92cc;
+    --bg-color-dark: #1b1c1e;
+    --bg-color-light: #f3f3f3;
+
+    //Dégradés
+    --gradient-dark: linear-gradient(45deg, #161616 0%, #434b53 100%);
+    --gradient-light: linear-gradient(45deg, #dfe9f3 0%, #ffffff 100%);
+    --gradient-button: linear-gradient(
+        241.01deg,
+        #00a2d8 -0.89%,
+        #188eb6 107.79%
+    );
+    --gradient-blue: linear-gradient(87.38deg, #004359 -4.13%, #007196 100.39%);
 }

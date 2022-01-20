@@ -3,12 +3,14 @@
    ========================================================================== */
 /// Font family
 :root {
-    --font-primary: 'Montserrat', sans-serif;
-    --font-secondary: 'Fira Code', monospace;
+    --font-primary: 'Exo 2', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
 
-    --font-size-content: 1.2rem;
+    --font-size-content: 1.125rem;
 
     /// Grosseur des textes
     --font-size-h1: 4rem;
-    --font-size-h2: 1.5rem;
+    --font-size-h2: 3rem;
+    --font-size-h3: 1.875rem;
+    --font-size-h4: 1.2rem;
 }
