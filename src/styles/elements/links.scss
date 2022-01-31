@@ -6,6 +6,7 @@
 a {
     color: var(--color-light);
     text-decoration: none;
+    text-transform: uppercase;
 
     &:hover {
         color: var(--color-primary);

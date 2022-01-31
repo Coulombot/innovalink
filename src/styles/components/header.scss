@@ -151,18 +151,30 @@ header {
         opacity: 1;
     }
 
-    ul {
+    .primary-ul {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         list-style: none;
         padding: 0;
         width: 100vw;
-        margin: auto 0;
         transition: all 0.5s 0.3s ease-out;
         transform: translateX(-100%);
         opacity: 1;
         padding: 30px;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            width: 70%;
+            border-bottom: solid 2px var(--color-light);
+
+            @media screen and (min-width: $breakpoint-md) {
+                content: none;
+            }
+        }
 
         .nav-is-active & {
             transform: translateX(0);
@@ -272,6 +284,12 @@ header {
 }
 
 .header__options {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
     li {
         margin-left: 15px;
     }
